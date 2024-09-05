@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(134, 16, 116), rgb(28, 25, 25));
+}
+.container {
+  background-image: linear-gradient(
+    to right(rgb(red), rgb(rgb(156, 148, 148)))
+  );
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  border-radius: 3%;
+  overflow: hidden;
+  font-family: Tahoma;
+  padding: 11px;
+  margin-top: 55px;
+  justify-content: center;
+}
+
+.container input {
+  position: sticky;
+  padding: 15px;
+  width: 465px;
+  right: -1%;
+  background-color: rgb(255, 255, 255, 0.25);
+  color: white;
+  font-family: Tahoma;
+  font-size: large;
+  font-weight: 4rem;
+  border-color: rgba(7, 7, 7, 0.92);
+  border-width: 5px;
+}
+
+.container button {
+  cursor: pointer;
+  width: 25%;
+  border-radius: 2%;
+  height: 14%;
+  font-size: large;
+  font-family: Tahoma;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(48, 8, 48, 0.25);
+  border-color: rgba(255, 255, 255, 0.596);
+}
+
+.container button:hover,
+.container button:focus {
+  background-color: rgba(236, 194, 236, 0.15);
+}
+.container button:active {
+  background-color: rgba(242, 223, 242, 0.089);
+}
+.container .oparationred {
+  color: rgb(231, 20, 20);
+}
+
+.container .operationorange {
+  color: rgb(241, 97, 8);
+}
+
+.container .operationgreen {
+  color: rgb(8, 241, 23);
+}
